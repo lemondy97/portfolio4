@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>도미노 피자</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        ul, ol ,li { list-style: none; }
+        a { text-decoration: none; }
+
+        #wrap { width: 100%; height: 100%; }
+
+        header { width: 100%; height: 960px; }
+        header #navContainer { width: 100%; height: 100px; margin-top: 50px; display: flex; justify-content: space-between; }
+        header .logoBox { margin-left: 100px;  }
+        header .menuBox { margin-right: 100px; cursor: pointer; }
+
+
+    </style>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <div id="wrap">
+        <header>
+            <div id="navContainer">
+                <div class="logoBox">
+                    <a href="#"><img src="img/dominos_logo.png" alt="도미노 로고"></a>
+                </div>
+                <div class="menuBox">
+                    <img src="img/menu_icon.jpg" alt="메뉴 버튼">
+                </div>
+            </div>
+
+            <div id="LoadingContainer">
+                <img src="img/MainImage1.jpg" alt="슬라이드 이미지" class="slideImage1" style="display:none;">
+                <img src="img/MainImage2.jpg" alt="슬라이드 이미지" class="slideImage2" style="display:none;">
+                <img src="img/MainImage3.jpg" alt="슬라이드 이미지" class="slideImage3" style="display:none;">
+            </div>
+        </header>
+
+        <section>
+
+        </section>
+
+        <footer>
+
+        </footer>
+    </div>
+</body>
+</html>
